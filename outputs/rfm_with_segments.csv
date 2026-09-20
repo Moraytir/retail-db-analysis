@@ -1,0 +1,296 @@
+customer_id,recency_days,frequency,monetary,r_score,f_score,m_score,segment
+1,164,6,1030.0,1,3,3,Loyal but slipping
+2,197,1,200.0,1,1,1,Lapsed
+3,44,3,361.0,3,2,2,"Recent, low frequency"
+4,122,4,418.0,1,2,2,Lapsed
+5,126,1,86.0,1,1,1,Lapsed
+6,306,4,644.0,1,2,2,Lapsed
+7,234,1,235.0,1,1,1,Lapsed
+8,57,8,877.0,2,3,3,Loyal but slipping
+9,97,1,60.0,2,1,1,Lapsed
+10,44,11,1564.0,3,4,4,Champions
+11,87,4,463.0,2,2,2,Lapsed
+12,51,10,1182.0,2,4,3,Loyal but slipping
+13,23,12,1588.0,3,4,4,Champions
+14,35,6,906.0,3,3,3,Champions
+15,55,4,326.0,2,2,2,Lapsed
+16,74,3,424.0,2,2,2,Lapsed
+17,135,1,70.0,1,1,1,Lapsed
+18,32,8,889.0,3,3,3,Champions
+19,1,3,582.0,4,2,2,"Recent, low frequency"
+20,27,13,2532.0,3,4,4,Champions
+21,5,22,2818.0,4,4,4,Champions
+22,218,8,952.0,1,3,3,Loyal but slipping
+23,149,1,62.0,1,1,1,Lapsed
+24,12,1,46.0,4,1,1,"Recent, low frequency"
+25,46,7,891.0,3,3,3,Champions
+26,116,6,876.0,2,3,3,Loyal but slipping
+27,17,5,379.0,3,2,2,"Recent, low frequency"
+28,7,4,340.0,4,2,2,"Recent, low frequency"
+29,115,2,197.0,2,1,1,Lapsed
+30,39,7,1151.0,3,3,3,Champions
+31,75,4,1209.0,2,2,3,Lapsed
+33,1,10,1327.0,4,4,4,Champions
+34,53,11,1576.0,2,4,4,Loyal but slipping
+35,10,8,925.0,4,3,3,Champions
+36,20,8,974.0,3,3,3,Champions
+37,64,7,697.0,2,3,2,Loyal but slipping
+38,13,17,1727.0,4,4,4,Champions
+39,238,2,104.0,1,1,1,Lapsed
+40,282,16,1468.0,1,4,4,Loyal but slipping
+41,345,5,1494.0,1,3,4,Loyal but slipping
+42,164,2,240.0,1,1,1,Lapsed
+43,37,7,876.0,3,3,3,Champions
+44,29,4,628.0,3,2,2,"Recent, low frequency"
+45,47,1,130.0,3,1,1,"Recent, low frequency"
+46,115,1,304.0,2,1,2,Lapsed
+47,158,5,1037.0,1,3,3,Loyal but slipping
+48,81,4,306.0,2,2,2,Lapsed
+49,25,5,517.0,3,2,2,"Recent, low frequency"
+50,328,7,1118.0,1,3,3,Loyal but slipping
+51,31,7,441.0,3,3,2,Champions
+52,19,1,30.0,3,1,1,"Recent, low frequency"
+53,32,7,954.0,3,3,3,Champions
+54,4,32,4472.0,4,4,4,Champions
+55,42,3,190.0,3,2,1,"Recent, low frequency"
+56,35,4,191.0,3,2,1,"Recent, low frequency"
+57,61,3,321.0,2,2,2,Lapsed
+58,6,9,761.0,4,3,3,Champions
+59,340,2,76.0,1,1,1,Lapsed
+60,3,16,2325.0,4,4,4,Champions
+61,85,2,129.0,2,1,1,Lapsed
+62,138,1,255.0,1,1,1,Lapsed
+63,60,9,1811.0,2,4,4,Loyal but slipping
+64,22,7,1107.0,3,3,3,Champions
+65,30,4,304.0,3,2,2,"Recent, low frequency"
+66,187,13,1418.0,1,4,4,Loyal but slipping
+67,4,14,1104.0,4,4,3,Champions
+68,23,3,347.0,3,2,2,"Recent, low frequency"
+69,188,6,963.0,1,3,3,Loyal but slipping
+70,20,6,964.0,3,3,3,Champions
+71,165,3,290.0,1,2,2,Lapsed
+72,16,28,5117.0,3,4,4,Champions
+73,53,2,73.0,2,1,1,Lapsed
+74,117,1,149.0,2,1,1,Lapsed
+75,11,16,2227.0,4,4,4,Champions
+76,35,5,733.0,3,2,3,"Recent, low frequency"
+77,13,17,2486.0,4,4,4,Champions
+78,118,9,1379.0,2,3,4,Loyal but slipping
+79,113,7,849.0,2,3,3,Loyal but slipping
+80,12,27,3638.0,4,4,4,Champions
+81,41,8,471.0,3,3,2,Champions
+82,249,7,476.0,1,3,2,Loyal but slipping
+83,29,17,2346.0,3,4,4,Champions
+84,136,12,1629.0,1,4,4,Loyal but slipping
+85,4,9,1380.0,4,3,4,Champions
+86,78,1,45.0,2,1,1,Lapsed
+87,10,2,577.0,4,2,2,"Recent, low frequency"
+88,6,7,746.0,4,3,3,Champions
+89,271,1,45.0,1,1,1,Lapsed
+90,25,5,634.0,3,2,2,"Recent, low frequency"
+91,289,2,337.0,1,2,2,Lapsed
+92,35,4,355.0,3,2,2,"Recent, low frequency"
+93,148,1,384.0,1,1,2,Lapsed
+94,5,17,1690.0,4,4,4,Champions
+95,131,1,24.0,1,1,1,Lapsed
+96,14,13,1107.0,4,4,3,Champions
+97,62,1,190.0,2,1,1,Lapsed
+98,2,4,256.0,4,2,1,"Recent, low frequency"
+99,226,13,1768.0,1,4,4,Loyal but slipping
+100,292,1,341.0,1,1,2,Lapsed
+101,52,4,451.0,2,2,2,Lapsed
+102,263,2,161.0,1,1,1,Lapsed
+103,196,3,869.0,1,2,3,Lapsed
+104,84,2,60.0,2,1,1,Lapsed
+105,46,7,1530.0,3,3,4,Champions
+106,243,7,776.0,1,3,3,Loyal but slipping
+107,85,2,243.0,2,1,1,Lapsed
+108,215,4,517.0,1,2,2,Lapsed
+110,253,2,225.0,1,1,1,Lapsed
+111,124,4,730.0,1,2,3,Lapsed
+112,20,9,1463.0,3,4,4,Champions
+113,43,2,225.0,3,1,1,"Recent, low frequency"
+114,349,1,45.0,1,1,1,Lapsed
+115,292,10,1344.0,1,4,4,Loyal but slipping
+116,31,6,807.0,3,3,3,Champions
+117,1,17,1610.0,4,4,4,Champions
+118,102,1,173.0,2,1,1,Lapsed
+119,18,4,1197.0,3,2,3,"Recent, low frequency"
+120,143,2,243.0,1,1,1,Lapsed
+121,17,17,2057.0,3,4,4,Champions
+122,4,26,2969.0,4,4,4,Champions
+123,56,2,131.0,2,1,1,Lapsed
+124,15,7,1307.0,3,3,4,Champions
+125,178,1,129.0,1,1,1,Lapsed
+126,5,10,1452.0,4,4,4,Champions
+127,108,7,989.0,2,3,3,Loyal but slipping
+128,153,1,137.0,1,1,1,Lapsed
+129,13,8,647.0,4,3,2,Champions
+130,22,3,586.0,3,2,2,"Recent, low frequency"
+131,235,2,140.0,1,1,1,Lapsed
+132,22,10,869.0,3,4,3,Champions
+133,12,6,977.0,4,3,3,Champions
+134,70,5,732.0,2,2,3,Lapsed
+135,178,1,103.0,1,1,1,Lapsed
+136,33,3,343.0,3,2,2,"Recent, low frequency"
+137,4,6,867.0,4,3,3,Champions
+138,83,2,218.0,2,1,1,Lapsed
+139,15,12,1447.0,3,4,4,Champions
+140,13,8,535.0,4,3,2,Champions
+141,4,12,1625.0,4,4,4,Champions
+142,91,1,44.0,2,1,1,Lapsed
+143,8,14,1672.0,4,4,4,Champions
+144,35,3,282.0,3,2,2,"Recent, low frequency"
+145,26,15,1943.0,3,4,4,Champions
+146,74,5,734.0,2,2,3,Lapsed
+147,16,18,2938.0,3,4,4,Champions
+148,12,4,442.0,4,2,2,"Recent, low frequency"
+149,5,10,1270.0,4,4,4,Champions
+150,19,5,649.0,3,2,2,"Recent, low frequency"
+151,37,1,120.0,3,1,1,"Recent, low frequency"
+152,28,13,1759.0,3,4,4,Champions
+153,280,4,395.0,1,2,2,Lapsed
+154,9,5,671.0,4,2,2,"Recent, low frequency"
+155,6,13,1752.0,4,4,4,Champions
+156,3,1,95.0,4,1,1,"Recent, low frequency"
+157,19,4,615.0,3,2,2,"Recent, low frequency"
+158,3,21,2733.0,4,4,4,Champions
+159,93,9,856.0,2,3,3,Loyal but slipping
+160,155,2,92.0,1,1,1,Lapsed
+161,217,2,80.0,1,1,1,Lapsed
+162,61,3,185.0,2,2,1,Lapsed
+163,39,3,841.0,3,2,3,"Recent, low frequency"
+164,4,7,931.0,4,3,3,Champions
+165,43,6,835.0,3,3,3,Champions
+166,119,2,271.0,1,1,1,Lapsed
+167,79,4,1027.0,2,2,3,Lapsed
+168,119,23,3274.0,1,4,4,Loyal but slipping
+169,3,10,1108.0,4,4,3,Champions
+170,126,16,2933.0,1,4,4,Loyal but slipping
+171,66,1,212.0,2,1,1,Lapsed
+172,104,1,55.0,2,1,1,Lapsed
+173,4,5,843.0,4,3,3,Champions
+175,7,22,3635.0,4,4,4,Champions
+176,12,9,726.0,4,3,3,Champions
+177,300,2,55.0,1,1,1,Lapsed
+178,170,7,1169.0,1,3,3,Loyal but slipping
+179,29,10,1628.0,3,4,4,Champions
+180,42,8,900.0,3,3,3,Champions
+181,195,2,389.0,1,2,2,Lapsed
+182,46,5,739.0,3,2,3,"Recent, low frequency"
+183,12,4,407.0,4,2,2,"Recent, low frequency"
+184,132,5,750.0,1,3,3,Loyal but slipping
+185,204,3,194.0,1,2,1,Lapsed
+186,152,2,174.0,1,1,1,Lapsed
+187,36,13,1529.0,3,4,4,Champions
+188,38,1,60.0,3,1,1,"Recent, low frequency"
+189,29,5,574.0,3,2,2,"Recent, low frequency"
+191,8,11,1035.0,4,4,3,Champions
+192,12,8,787.0,4,3,3,Champions
+193,1,6,407.0,4,3,2,Champions
+194,80,5,211.0,2,2,1,Lapsed
+195,50,12,2067.0,2,4,4,Loyal but slipping
+196,64,6,729.0,2,3,3,Loyal but slipping
+197,83,1,55.0,2,1,1,Lapsed
+198,20,6,758.0,3,3,3,Champions
+199,134,6,732.0,1,3,3,Loyal but slipping
+200,6,2,294.0,4,1,2,"Recent, low frequency"
+201,98,10,774.0,2,4,3,Loyal but slipping
+202,24,5,561.0,3,2,2,"Recent, low frequency"
+203,38,8,1214.0,3,3,3,Champions
+205,161,8,1025.0,1,3,3,Loyal but slipping
+206,85,14,1582.0,2,4,4,Loyal but slipping
+207,12,20,2403.0,4,4,4,Champions
+208,364,1,348.0,1,1,2,Lapsed
+209,80,4,419.0,2,2,2,Lapsed
+210,227,3,171.0,1,2,1,Lapsed
+211,28,2,79.0,3,1,1,"Recent, low frequency"
+212,61,6,841.0,2,3,3,Loyal but slipping
+213,9,1,40.0,4,1,1,"Recent, low frequency"
+214,246,3,273.0,1,2,1,Lapsed
+215,355,1,15.0,1,1,1,Lapsed
+216,63,6,593.0,2,3,2,Loyal but slipping
+217,2,3,379.0,4,2,2,"Recent, low frequency"
+218,2,12,889.0,4,4,3,Champions
+219,129,3,593.0,1,2,2,Lapsed
+220,9,6,691.0,4,3,2,Champions
+221,97,6,578.0,2,3,2,Loyal but slipping
+222,4,5,1012.0,4,3,3,Champions
+223,15,15,1444.0,4,4,4,Champions
+224,56,4,272.0,2,2,1,Lapsed
+225,29,1,24.0,3,1,1,"Recent, low frequency"
+226,77,4,529.0,2,2,2,Lapsed
+227,5,8,703.0,4,3,3,Champions
+228,26,10,2170.0,3,4,4,Champions
+229,26,24,3084.0,3,4,4,Champions
+230,12,5,602.0,4,2,2,"Recent, low frequency"
+231,73,2,209.0,2,1,1,Lapsed
+232,36,5,851.0,3,3,3,Champions
+233,215,16,2442.0,1,4,4,Loyal but slipping
+234,19,4,258.0,3,2,1,"Recent, low frequency"
+235,48,3,399.0,3,2,2,"Recent, low frequency"
+236,86,3,353.0,2,2,2,Lapsed
+237,101,2,486.0,2,2,2,Lapsed
+238,3,8,1169.0,4,3,3,Champions
+239,4,5,688.0,4,2,2,"Recent, low frequency"
+240,2,8,1138.0,4,3,3,Champions
+241,266,1,55.0,1,1,1,Lapsed
+242,48,1,250.0,2,1,1,Lapsed
+243,61,7,1156.0,2,3,3,Loyal but slipping
+244,211,2,301.0,1,1,2,Lapsed
+245,1,6,911.0,4,3,3,Champions
+246,2,10,1238.0,4,4,4,Champions
+247,26,9,1568.0,3,4,4,Champions
+248,18,3,189.0,3,2,1,"Recent, low frequency"
+249,3,7,1283.0,4,3,4,Champions
+250,146,3,819.0,1,2,3,Lapsed
+251,105,5,703.0,2,2,3,Lapsed
+252,7,13,1864.0,4,4,4,Champions
+253,3,20,3081.0,4,4,4,Champions
+254,264,1,313.0,1,1,2,Lapsed
+255,56,1,700.0,2,1,2,Lapsed
+256,4,29,3736.0,4,4,4,Champions
+257,1,8,1515.0,4,3,4,Champions
+258,310,5,531.0,1,2,2,Lapsed
+259,31,22,2643.0,3,4,4,Champions
+260,266,1,184.0,1,1,1,Lapsed
+261,6,4,590.0,4,2,2,"Recent, low frequency"
+262,79,2,332.0,2,2,2,Lapsed
+263,85,2,207.0,2,1,1,Lapsed
+264,108,1,28.0,2,1,1,Lapsed
+265,69,2,289.0,2,1,2,Lapsed
+266,9,1,42.0,4,1,1,"Recent, low frequency"
+267,114,1,320.0,2,1,2,Lapsed
+268,4,9,1219.0,4,3,4,Champions
+269,38,3,326.0,3,2,2,"Recent, low frequency"
+270,138,6,901.0,1,3,3,Loyal but slipping
+271,85,2,361.0,2,2,2,Lapsed
+272,1,11,1291.0,4,4,4,Champions
+273,345,5,469.0,1,2,2,Lapsed
+274,91,1,110.0,2,1,1,Lapsed
+275,53,12,2081.0,2,4,4,Loyal but slipping
+276,105,5,809.0,2,3,3,Loyal but slipping
+277,88,11,1210.0,2,4,3,Loyal but slipping
+278,39,6,486.0,3,3,2,Champions
+279,53,14,2188.0,2,4,4,Loyal but slipping
+280,10,15,1351.0,4,4,4,Champions
+281,119,1,76.0,1,1,1,Lapsed
+282,8,14,1218.0,4,4,4,Champions
+283,102,8,572.0,2,3,2,Loyal but slipping
+284,8,6,968.0,4,3,3,Champions
+285,172,2,323.0,1,2,2,Lapsed
+286,63,6,1393.0,2,3,4,Loyal but slipping
+287,29,14,1897.0,3,4,4,Champions
+288,63,7,1072.0,2,3,3,Loyal but slipping
+289,5,7,1113.0,4,3,3,Champions
+290,335,2,259.0,1,1,1,Lapsed
+291,36,13,1973.0,3,4,4,Champions
+292,100,1,228.0,2,1,1,Lapsed
+293,32,1,218.0,3,1,1,"Recent, low frequency"
+294,12,18,2381.0,4,4,4,Champions
+295,19,14,1638.0,3,4,4,Champions
+296,179,1,414.0,1,1,2,Lapsed
+297,200,9,1022.0,1,3,3,Loyal but slipping
+298,99,2,430.0,2,2,2,Lapsed
+299,84,32,3318.0,2,4,4,Loyal but slipping
+300,62,22,2452.0,2,4,4,Loyal but slipping

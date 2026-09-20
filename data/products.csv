@@ -1,0 +1,29 @@
+product_id,product_name,category_id,unit_price
+1,Bottled Water 1.5L,1,12
+2,Iced Tea,1,20
+3,Cola,1,15
+4,Orange Juice,1,35
+5,Instant Coffee 3-in-1 (10 sachets),1,65
+6,Green Tea Bottle,1,18
+7,Potato Chips,2,25
+8,Seaweed Snack,2,20
+9,Chocolate Bar,2,30
+10,Biscuit Pack,2,22
+11,Roasted Peanuts,2,28
+12,Instant Noodle Cup,2,15
+13,Jasmine Rice 5kg,3,185
+14,Cooking Oil 1L,3,55
+15,Eggs (10),3,60
+16,Fish Sauce,3,40
+17,Soy Sauce,3,35
+18,Sugar 1kg,3,28
+19,Dish Soap,4,45
+20,Laundry Detergent,4,120
+21,Tissue Roll 6-pack,4,75
+22,Trash Bags,4,35
+23,Sponge 3-pack,4,30
+24,Shampoo,5,89
+25,Toothpaste,5,55
+26,Body Wash,5,95
+27,Hand Soap,5,49
+28,Toothbrush 2-pack,5,39

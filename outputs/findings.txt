@@ -1,0 +1,13 @@
+Total revenue (completed orders): 263,217 THB across 2,012 orders.
+Highest month: 2025-11-01 (38,159 THB). Lowest month: 2025-02-01 (11,796 THB).
+Average order value: 130.8 THB.
+Top category: Groceries (26.4% of revenue).
+Repeat purchase rate: 84.1% (248 of 295 buyers ordered at least twice).
+Days between orders: average 22.2, median 11.0.
+Most common product pair: Cola + Instant Noodle Cup (55 orders).
+
+RFM segments:
+  Champions: 98 customers, 11.8 orders on average, 57.4% of revenue.
+  Recent, low frequency: 49 customers, 3.2 orders on average, 7.3% of revenue.
+  Loyal but slipping: 49 customers, 9.8 orders on average, 24.4% of revenue.
+  Lapsed: 99 customers, 2.2 orders on average, 11.0% of revenue.
