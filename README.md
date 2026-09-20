@@ -64,7 +64,7 @@ erDiagram
 You need Python 3 (the SQLite version must be 3.30 or newer, which is true for current Python releases).
 
 ```bash
-git clone https://github.com/Moraytir/retail-sql.git
+git clone https://github.com/Moraytir/retail-db-analysis.git
 cd retail-sql
 
 pip install -r requirements.txt
