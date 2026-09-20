@@ -152,8 +152,9 @@ def main():
 
     write_csv("orders.csv", ["order_id", "customer_id", "order_date", "status"], order_rows)
     write_csv("order_items.csv", ["order_id", "product_id", "quantity", "unit_price"], item_rows)
-    print(f"\nSaved to {OUT_DIR}/. Next: python build_db.py")
+    print(f"\nSaved to {OUT_DIR}/")
 
 
 if __name__ == "__main__":
     main()
+    print("Next: python build_db.py")

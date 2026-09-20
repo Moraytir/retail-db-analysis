@@ -64,8 +64,8 @@ erDiagram
 You need Python 3 (the SQLite version must be 3.30 or newer, which is true for current Python releases).
 
 ```bash
-git clone https://github.com/Moraytir/retail-db-analysis.git
-cd retail-db-analysis
+git clone https://github.com/Moraytir/retail-sql.git
+cd retail-sql
 
 pip install -r requirements.txt
 python build_db.py       # creates the synthetic data and retail.db
@@ -75,14 +75,20 @@ python analysis.py       # runs queries.sql, then saves charts and a summary
 To explore the database yourself, open `retail.db` in a free tool such as [DB Browser for SQLite](https://sqlitebrowser.org/) and paste any query from `queries.sql`.
 
 ## Results
-> Fill this section in after running the analysis, using `outputs/findings.txt`. Write only what the output shows.
+Numbers from running the analysis on the synthetic dataset (2,089 orders, 300 customers, 2025).
 
-- [Finding 1, e.g. which category earns the most revenue]
-- [Finding 2, e.g. repeat purchase rate]
-- [Finding 3, e.g. how much revenue comes from the best RFM segment]
+- **Revenue:** 263,217 THB from 2,012 completed orders, with an average order value of 130.8 THB. Monthly revenue ranged from 11,796 THB (February) to 38,159 THB (November). The rise over the year mostly reflects how the generator adds new customers over time.
+- **Categories:** Groceries earns the most, at 26.4% of revenue.
+- **Repeat purchases:** 84.1% of buyers ordered at least twice (248 of 295). The average gap between orders is 22.2 days but the median is 11.0, so a few long gaps pull the average up.
+- **Products bought together:** Cola + Instant Noodle Cup is the most common pair (55 orders). The generator makes beverages and snacks more likely to share a basket, so this shows the query works rather than a real shopping habit.
+- **Customer segments (RFM):** Champions are 98 of 295 customers (about a third) but bring 57.4% of revenue. Loyal but slipping customers (49) bring 24.4%, Lapsed customers (99) bring 11.0%, and Recent low-frequency customers (49) bring 7.3%.
 
 ![Monthly revenue](figures/monthly_revenue.png)
+![Revenue by category](figures/revenue_by_category.png)
 ![RFM segments](figures/rfm_segments.png)
+![New vs returning customers](figures/new_vs_returning.png)
+
+Because the data is synthetic, these results show what the analysis produces, not how a real store behaves.
 
 ## Tech Stack
 SQL (SQLite), Python (Pandas, Matplotlib)
